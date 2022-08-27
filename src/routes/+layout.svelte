@@ -1,12 +1,14 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
+	import Header from "$lib/header/Header.svelte";
+	import "../styles/reset.scss";
+	import "../styles/variables.scss";
+	import "../styles/globals.scss";
 </script>
 
-<Header />
+<Header/>
 
 <main>
-	<slot />
+	<slot/>
 </main>
 
 <footer>

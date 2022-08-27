@@ -2,11 +2,13 @@
 </script>
 
 <header>
-	<h1>Header</h1>
+	<h1>Jordnära ekonomi</h1>
 </header>
 
 <style>
 	header {
-		background-color: #EEE;
+		background: #EEE url("/images/skog.jpg") no-repeat center;
+		background-size: cover;
+		min-height: 80vh;
 	}
 </style>
