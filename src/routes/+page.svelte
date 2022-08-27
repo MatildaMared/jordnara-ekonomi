@@ -2,8 +2,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Jordnära Ekonomi" />
+	<title>Jordnära Ekonomi 🌾</title>
+	<meta name="description" content="Jordnära Ekonomi"/>
 </svelte:head>
 
 <section>

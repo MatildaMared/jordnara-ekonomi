@@ -1,16 +1,18 @@
 <script lang="ts">
+	import Link from "$lib/link/Link.svelte";
 </script>
 
 <header>
 	<h1 class="title">Jordnära ekonomi</h1>
 	<p class="subtitle">Redovisning med fötterna på jorden</p>
+	<Link url="#vad-vi-erbjuder" primary>Så kan vi hjälpa dig</Link>
 </header>
 
 <style lang="scss">
 	header {
 		background: linear-gradient(
 						rgba(0, 0, 0, 0.15),
-						rgba(0, 0, 0, 0.30)
+						rgba(0, 0, 0, 0.25)
 		), url("/images/skog.jpg") no-repeat center;
 		background-size: cover;
 		height: 100%;
