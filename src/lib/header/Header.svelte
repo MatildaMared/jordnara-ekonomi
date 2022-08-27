@@ -9,6 +9,8 @@
 </header>
 
 <style lang="scss">
+	@use "../../styles/breakpoints" as *;
+
 	header {
 		background: linear-gradient(
 						rgba(0, 0, 0, 0.15),
@@ -26,14 +28,32 @@
 		line-height: 1.2;
 
 		.title {
-			font-size: 4.5rem;
+			font-size: 2.5rem;
 			text-shadow: 0 4px 8px hsla(131, 20%, 8%, .5);
 		}
 
 		.subtitle {
 			font-family: var(--font-script);
-			font-size: 2rem;
+			font-size: 1.2rem;
 			text-shadow: 0 3px 6px hsla(131, 20%, 8%, .3);
+		}
+
+		@media (min-width: $breakpoint-tablet-portrait) {
+			.title {
+				font-size: 3.5rem;
+			}
+			.subtitle {
+				font-size: 1.6rem;
+			}
+		}
+
+		@media (min-width: $breakpoint-tablet-landscape) {
+			.title {
+				font-size: 4.5rem;
+			}
+			.subtitle {
+				font-size: 2rem;
+			}
 		}
 	}
 </style>
