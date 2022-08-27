@@ -1,4 +1,6 @@
 :root {
+	--max-width: 1200px;
+
 	--font-primary: 'Nunito Sans', sans-serif;
 	--font-secondary: 'Baskervville', serif;
 	--font-script: 'Nothing You Could Do', cursive;
@@ -7,5 +9,4 @@
 	--color-primary-dark: hsla(131, 20%, 28%, .95);
 	--color-secondary: hsla(193, 86%, 50%, .95);
 	--color-secondary-dark: hsla(193, 86%, 42%, .95);
-
 }

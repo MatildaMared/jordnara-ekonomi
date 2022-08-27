@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Contact from "$lib/contact/Contact.svelte";
 </script>
 
 <svelte:head>
@@ -9,6 +10,8 @@
 <section>
 	<h1>Jordnära Ekonomi</h1>
 </section>
+
+<Contact/>
 
 <style>
 </style>

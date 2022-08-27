@@ -5,7 +5,7 @@
 <header>
 	<h1 class="title">Jordnära ekonomi</h1>
 	<p class="subtitle">Redovisning med fötterna på jorden</p>
-	<Link url="#vad-vi-erbjuder" secondary>Så kan vi hjälpa dig</Link>
+	<Link url="#vad-vi-erbjuder" secondary>Så kan jag hjälpa dig</Link>
 </header>
 
 <style lang="scss">
@@ -26,6 +26,7 @@
 		color: rgba(255, 255, 255, .9);
 		text-align: center;
 		line-height: 1.2;
+		padding: 0 16px;
 
 		.title {
 			font-size: 2.5rem;
