@@ -26,6 +26,7 @@
 			transform: translateY(-2px);
 			box-shadow: 0 8px 16px rgba(0, 0, 0, .5);
 			background-color: var(--color-primary);
+			color: rgba(255, 255, 255, 0.95);
 
 			&.secondary {
 				background-color: var(--color-secondary);

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Contact from "$lib/contact/Contact.svelte";
+	import About from "$lib/about/About.svelte";
 </script>
 
 <svelte:head>
@@ -7,9 +8,7 @@
 	<meta name="description" content="Jordnära Ekonomi"/>
 </svelte:head>
 
-<section>
-	<h1>Jordnära Ekonomi</h1>
-</section>
+<About/>
 
 <Contact/>
 
