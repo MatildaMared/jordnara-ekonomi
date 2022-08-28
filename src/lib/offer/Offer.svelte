@@ -49,9 +49,6 @@
 						Har du rätt företagsform?
 					</li>
 					<li>
-						Är du rätt försäkrad?
-					</li>
-					<li>
 						Får du ut optimalt av din SAM-ansökan?
 					</li>
 				</ul>
@@ -59,7 +56,7 @@
 		</div>
 	</div>
 	<p>Mina tjänster utnyttjas av olika typer av kunder, exempelvis hantverkare, konsulter, åkare, lantbrukare,
-		mäklare, programmerare, maskinförare och musiker.
+		mäklare, maskinförare och musiker.
 	</p>
 	<p><strong>Kontakta mig så berättar jag mer!</strong></p>
 	<Link url="#kontakt">Kontakt</Link>

@@ -10,8 +10,8 @@
 		<img src="images/jan-erik3.jpg" alt="Jan-Erik Mattsson" class="photo">
 		<div>
 			<p>
-				Mitt namn är Jan-Erik Matsson. Jag är specialist inom jord- och skogsbruk och har lång erfarenhet från
-				redovisning inom byggbranchen.
+				Mitt namn är Jan-Erik Matsson. Jag är specialist inom jord- och skogsbruk och har lång erfarenhet av
+				redovisning i många olika branscher.
 			</p>
 			<p>
 				Jag tittar på er befintliga organisation och ger förslag utifrån vad som skulle passa er bäst.
@@ -24,9 +24,6 @@
 				</li>
 				<li>
 					mångårig erfarenhet av jord- och skogsbruk
-				</li>
-				<li>
-					samarbete med Ullareds Redovisningsbyrå HB
 				</li>
 				<li>
 					lång erfarenhet av EU-bidrag till jord-och skogsbruk
