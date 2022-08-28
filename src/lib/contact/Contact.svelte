@@ -50,12 +50,14 @@
 
 
 <style lang="scss">
+	@use "../../styles/breakpoints" as *;
+
 	.contact {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: var(--spacing-xl) 0;
+		padding: var(--spacing-xl) 16px;
 		background-color: var(--color-primary-dark);
 
 		> * {
@@ -65,6 +67,7 @@
 		&__wrapper {
 			background-color: rgba(255, 255, 255, .85);
 			width: 100%;
+			min-width: fit-content;
 			padding: 32px;
 			border-radius: 8px;
 			border: 1px solid hsla(131, 20%, 22%, .95);
@@ -111,13 +114,19 @@
 	.content_wrapper {
 		width: 100%;
 		display: flex;
+		flex-direction: column;
 		gap: 32px;
+
+		@media (min-width: $breakpoint-tablet-portrait) {
+			flex-direction: row;
+		}
 	}
 
 	.map {
 		flex: 2;
 		border: 1px solid hsla(131, 20%, 22%, .95);
 		width: 100%;
+		min-height: 300px;
 		max-height: 400px;
 		border-radius: 8px;
 	}
