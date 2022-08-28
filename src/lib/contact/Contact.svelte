@@ -1,11 +1,12 @@
 <script lang="ts">
 	import {MailIcon, MapPinIcon, PhoneIcon} from "svelte-feather-icons";
+	import Heading from "$lib/heading/Heading.svelte";
 
 	const API_KEY = "AIzaSyB32uPsHhFH6LILWZraOjY_irVKz_NyhOg";
 </script>
 
 <section class="contact">
-	<h1>Kontakt</h1>
+	<Heading light>Kontakt</Heading>
 	<div class="content_wrapper">
 		<article class="contact__wrapper">
 			<div class="contact__group">
