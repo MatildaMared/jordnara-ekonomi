@@ -3,12 +3,12 @@
 	export let secondary = false;
 </script>
 
-<a href={url} class={secondary ? "secondary" : ""}>
+<a href={url} class={secondary ? "secondary link" : "link"}>
 	<slot/>
 </a>
 
 <style lang="scss">
-	a {
+	.link {
 		background-color: var(--color-primary-dark);
 		padding: 16px 32px;
 		border-radius: 8px;

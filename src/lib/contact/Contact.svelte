@@ -5,7 +5,7 @@
 	const API_KEY = "AIzaSyB32uPsHhFH6LILWZraOjY_irVKz_NyhOg";
 </script>
 
-<section class="contact">
+<section class="contact" id="kontakt">
 	<Heading light>Kontakt</Heading>
 	<div class="content_wrapper">
 		<article class="contact__wrapper">
@@ -45,7 +45,6 @@
 				referrerpolicy="no-referrer-when-downgrade"
 				src={`https://www.google.com/maps/embed/v1/place?key=${API_KEY}&zoom=10&maptype=satellite&q=Mossarp+406+313+93+Slättåkra`}>
 		</iframe>
-
 	</div>
 </section>
 
@@ -108,6 +107,9 @@
 
 			h3, .icon {
 				color: var(--color-primary-dark);
+				text-transform: uppercase;
+				font-weight: 300;
+				letter-spacing: 1px;
 			}
 		}
 	}
@@ -130,5 +132,17 @@
 		min-height: 300px;
 		max-height: 400px;
 		border-radius: 8px;
+	}
+
+	a {
+		color: var(--color-black);
+		text-decoration: none;
+		transition: all .2s;
+		border-bottom: 1px solid transparent;
+
+		&:hover {
+			color: var(--color-primary-dark);
+			border-bottom: 1px solid var(--color-primary-dark);
+		}
 	}
 </style>

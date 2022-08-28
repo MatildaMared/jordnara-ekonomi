@@ -5,7 +5,7 @@
 <header>
 	<h1 class="title">Jordnära ekonomi</h1>
 	<p class="subtitle">Redovisning med fötterna på jorden</p>
-	<Link url="#vad-vi-erbjuder" secondary>Så kan jag hjälpa dig</Link>
+	<Link url="#tjanster" secondary>Så kan jag hjälpa dig</Link>
 </header>
 
 <style lang="scss">
