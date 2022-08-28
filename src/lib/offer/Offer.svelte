@@ -70,7 +70,6 @@
 
 	.offer {
 		width: 100%;
-		border: 1px solid red;
 		max-width: var(--max-width);
 		margin: var(--spacing-xl) 0 0 0;
 		display: flex;
