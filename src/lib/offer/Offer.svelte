@@ -66,11 +66,14 @@
 </section>
 
 <style lang="scss">
+	@use "../../styles/breakpoints" as *;
+
 	.offer {
 		margin: var(--spacing-xl) 0 0 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		padding: 0 16px;
 	}
 
 	p:not(:last-of-type) {
@@ -98,10 +101,18 @@
 
 	.content {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		gap: 32px;
 		margin-bottom: var(--spacing-m);
 
+		@media (min-width: $breakpoint-tablet-portrait) {
+			flex-direction: row;
+			align-items: initial;
+		}
+
 		img {
+			width: 100%;
 			max-width: 400px;
 			height: auto;
 			border-radius: 8px;

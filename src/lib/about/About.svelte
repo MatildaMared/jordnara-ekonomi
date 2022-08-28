@@ -49,9 +49,15 @@
 
 	.content {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		width: 100%;
 		gap: 32px;
 		max-width: 800px;
+
+		@media (min-width: $breakpoint-tablet-portrait) {
+			flex-direction: row;
+		}
 
 		p {
 			margin-bottom: var(--spacing-xs);
@@ -71,6 +77,8 @@
 
 		ul {
 			padding: 0 16px;
+			width: fit-content;
+			margin: 0 auto;
 
 			li {
 				margin-bottom: var(--spacing-xs);
