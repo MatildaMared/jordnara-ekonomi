@@ -69,6 +69,9 @@
 	@use "../../styles/breakpoints" as *;
 
 	.offer {
+		width: 100%;
+		border: 1px solid red;
+		max-width: var(--max-width);
 		margin: var(--spacing-xl) 0 0 0;
 		display: flex;
 		flex-direction: column;
@@ -100,6 +103,7 @@
 	}
 
 	.content {
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -112,8 +116,9 @@
 		}
 
 		img {
+			flex: 1;
 			width: 100%;
-			max-width: 400px;
+			max-width: 600px;
 			height: auto;
 			border-radius: 8px;
 			object-fit: cover;
